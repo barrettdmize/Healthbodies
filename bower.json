@@ -1,0 +1,23 @@
+{
+  "name": "healthy-bodies",
+  "homepage": "https://github.com/barrettdmize/Healthbodies",
+  "authors": [
+    "Barrett Mize <barrettdmize@gmail.com>"
+  ],
+  "description": "site for a business client",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.2.1",
+    "underscore": "~1.8.3"
+  }
+}
