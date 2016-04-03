@@ -1,0 +1,13 @@
+body {
+  margin: 0 auto; }
+
+.sectionOneContainer {
+  height: 800px;
+  width: 100%; }
+  .sectionOneContainer .sectionOne {
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-size: cover;
+    max-width: 100%;
+    max-height: 100%; }
