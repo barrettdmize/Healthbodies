@@ -1,12 +1,4 @@
-//Below is the styling for the images as they are loaded
-$('.sectionOne').on('load',function(){
-    var css;
-    var ratio=$(this).width() / $(this).height();
-    var pratio=$(this).parent().width() / $(this).parent().height();
-    if (ratio<pratio) css={width:'auto', height:'100%'};
-    else css={width:'100%', height:'auto'};
-    $(this).css(css);
-});
+
 
 
 
