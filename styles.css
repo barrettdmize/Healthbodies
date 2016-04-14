@@ -1,26 +1,23 @@
-body {
-  margin: 0 auto; }
+html, body {
+  margin: 0;
+  padding: 0; }
 
-.sectionOneContainer {
-  height: 800px;
-  width: 100%; }
-  .sectionOneContainer .sectionOne {
-    height: 100%;
-    width: 100%;
-    background-size: contain;
-    background-size: cover;
-    max-width: 100%;
-    max-height: 100%; }
+.slider {
+  width: 1024px;
+  margin: 2em auto; }
 
-#img-box {
-  background-size: contain;
-  background-size: cover;
-  max-width: 100%;
-  max-height: 100%;
-  background-size: 50% auto; }
+.slider-wrapper {
+  width: 100%;
+  height: 900px;
+  position: relative; }
 
-.background {
-  background-size: contain;
-  background-size: cover;
-  max-width: 100%;
-  max-height: 100%; }
+.slide {
+  float: left;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 3s linear; }
+
+.slider-wrapper > .slide:first-child {
+  opacity: 1; }

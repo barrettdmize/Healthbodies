@@ -1,8 +1,3 @@
-
-
-
-
-//Below is the function for the slideshow
 (function() {
 
 	function Slideshow( element ) {
